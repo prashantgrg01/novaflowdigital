@@ -21,8 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function lander_leads_recipient_map() {
     return array(
-        'novaflow-schools'   => 'client@example.com',
-        'novaflow-corporate' => 'client@example.com',
+        'novaflow-school-enrolment-playbook' => 'client@example.com',
     );
 }
 define( 'LANDER_LEADS_DEFAULT_TO', 'client@example.com' );

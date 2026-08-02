@@ -30,7 +30,7 @@ the project spec; this file is the quick-reference for day-to-day use.
    `/wp-content/uploads/landers/{new-name}/assets/`.
 2. Add a form submit handler that POSTs to `admin-ajax.php` with
    `action=lander_lead` and `lander={new-name}`, plus the honeypot
-   `website` field (see `landers/novaflow-schools/template.php`).
+   `website` field (see `landers/novaflow-school-enrolment-playbook/template.php`).
 3. Add a line to `lander_leads_recipient_map()` in
    `wp-content/mu-plugins/lander-leads.php` mapping `{new-name}` to the
    right inbox.
@@ -55,3 +55,9 @@ the project spec; this file is the quick-reference for day-to-day use.
 - `https://example.com` in each lander's form fetch URL.
 - `robots.txt` currently disallows all crawling on the staging preview by
   default — relax or remove once a lander is public.
+- `landers/novaflow-school-enrolment-playbook/assets/` needs the real
+  image files before this lander looks right: `novaflow-logo.png`,
+  `checklist-mockup.png`, `campaign-timeline.png`,
+  `annual-marketing-calendar.png`, `openday-planner.png`,
+  `school-partner-logos.png`, `team-planning.jpg`. Until they're added the
+  page will show broken image icons where each one is referenced.
