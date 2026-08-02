@@ -21,6 +21,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Build static previews from each lander's template.php
+        run: |
+          set -e
+          for f in landers/*/template.php; do
+            dir=$(dirname "$f")
+            name=$(basename "$dir")
+            # Strip the leading Template Name PHP header (WordPress-only
+            # syntax GitHub Pages can't execute) so the rest renders as
+            # plain HTML.
+            sed '0,/?>/d' "$f" > "$dir/index.html"
+            # Rewrite absolute /wp-content/uploads/... asset paths (correct
+            # once WordPress serves the file from its own domain root) to
+            # relative paths that resolve under the Pages project subpath.
+            # template.php itself is untouched.
+            sed -i "s#/wp-content/uploads/landers/${name}/assets/#assets/#g" "$dir/index.html"
+          done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
