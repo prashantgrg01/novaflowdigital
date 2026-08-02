@@ -203,19 +203,19 @@
     <div style="max-width: 1080px; margin: 0 auto; padding: 0 24px; position: relative;">
       <div class="nf-roadmap-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; position: relative;">
         <div style="grid-column: 1 / -1; grid-row: 1; height: 2px; background-image: linear-gradient(to right, rgba(255,255,255,0.18) 0 10px, transparent 10px 20px); background-size: 20px 2px; margin-top: 33px;"></div>
-        <div class="nf-reveal" style="grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative;">
+        <div class="nf-reveal" style="grid-column: 1; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: #16263F; border: 2px solid rgba(21,166,174,0.5); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: var(--accent, #15A6AE); font-size: 17px;">T1</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Awareness</div><div style="font-size: 13px; color: #93A4B8;">Brand &amp; community content</div></div>
         </div>
-        <div class="nf-reveal" style="grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.08s;">
+        <div class="nf-reveal" style="grid-column: 2; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.08s;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: #16263F; border: 2px solid rgba(21,166,174,0.5); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: var(--accent, #15A6AE); font-size: 17px;">T2</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Open Day Runway</div><div style="font-size: 13px; color: #93A4B8;">6-week campaign live</div></div>
         </div>
-        <div class="nf-reveal" style="grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.16s;">
+        <div class="nf-reveal" style="grid-column: 3; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.16s;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: #16263F; border: 2px solid rgba(21,166,174,0.5); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: var(--accent, #15A6AE); font-size: 17px;">T3</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Enquiry Nurture</div><div style="font-size: 13px; color: #93A4B8;">Warm follow-up sequence</div></div>
         </div>
-        <div class="nf-reveal nf-hover-lift" style="grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.24s;">
+        <div class="nf-reveal nf-hover-lift" style="grid-column: 4; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.24s;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: var(--accent, #15A6AE); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: #fff; font-size: 17px; box-shadow: 0 10px 24px rgba(21,166,174,0.4);">T4</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Enrolment Push</div><div style="font-size: 13px; color: #93A4B8;">Application deadline sprint</div></div>
         </div>
@@ -416,7 +416,7 @@
         </div>
       </div>
     </div>
-    <p style="text-align: center; font-size: 12.5px; color: #7E8FA2; padding: 32px 24px 0;">© 2026 NovaFlow Digital: ★★★★★  Trusted by Australian independent schools.</p>
+    <p style="text-align: center; font-size: 12.5px; color: #7E8FA2; padding: 32px 24px 0; line-height: 1.6;">© 2026 NovaFlow Digital<br>★★★★★ Trusted by Australian independent schools.</p>
   </section>
 
 
