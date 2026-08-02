@@ -3,6 +3,7 @@ name: Deploy staging preview to GitHub Pages
 on:
   push:
     branches: [staging]
+  workflow_dispatch: {}
 
 permissions:
   contents: read
