@@ -1,0 +1,27 @@
+name: Trigger SiteGround production deploy
+
+# Placeholder trigger for the spec's step "merge to main -> SiteGround
+# pull/deploy". SiteGround's native Git Version Control tool (Site
+# Tools -> Devs -> Git) must be connected to this repo first (manual,
+# one-time setup — see README), which is also where you obtain the
+# deploy webhook URL/token to store as the SITEGROUND_DEPLOY_WEBHOOK
+# repo secret referenced below.
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call SiteGround deploy webhook
+        env:
+          SITEGROUND_DEPLOY_WEBHOOK: ${{ secrets.SITEGROUND_DEPLOY_WEBHOOK }}
+        run: |
+          if [ -z "$SITEGROUND_DEPLOY_WEBHOOK" ]; then
+            echo "SITEGROUND_DEPLOY_WEBHOOK secret is not set yet — skipping." \
+                 "Set it once Site Tools -> Devs -> Git is connected (see README)."
+            exit 0
+          fi
+          curl -sS -X POST "$SITEGROUND_DEPLOY_WEBHOOK"
