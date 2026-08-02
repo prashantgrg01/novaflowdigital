@@ -435,7 +435,13 @@
   });
 })();
 
-// Hero + Final CTA forms -> shared lead-capture endpoint
+// Hero + Final CTA forms -> shared lead-capture endpoint, then redirect to step 2
+var isStaging = window.location.hostname.indexOf('github.io') !== -1;
+// TODO: replace with the real WordPress URL once the step-2 page is created
+// and given its own slug — WordPress pages aren't looked up by this folder
+// path, only by whichever slug the client picks (see spec).
+var STEP2_URL = isStaging ? 'step-2/' : 'https://example.com/book-a-strategy-session/';
+
 function wireForm(formId, successId) {
   var form = document.getElementById(formId);
   var success = document.getElementById(successId);
@@ -443,10 +449,13 @@ function wireForm(formId, successId) {
   form.addEventListener('submit', function(e){
     e.preventDefault();
 
-    // Staging preview: skip the live submit so test edits don't email the client.
-    if (window.location.hostname.indexOf('github.io') !== -1) {
+    // Staging preview: skip the live submit (so test edits don't email the
+    // client) but still redirect, so reviewers can see the full step 1 ->
+    // step 2 funnel.
+    if (isStaging) {
       form.style.display = 'none';
       success.style.display = 'block';
+      window.location.href = STEP2_URL;
       return;
     }
 
@@ -461,6 +470,7 @@ function wireForm(formId, successId) {
         if (res.success) {
           form.style.display = 'none';
           success.style.display = 'block';
+          window.location.href = STEP2_URL;
         }
       });
   });

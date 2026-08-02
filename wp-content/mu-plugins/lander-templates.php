@@ -35,14 +35,25 @@ function lander_templates_discover() {
         return $templates;
     }
 
-    foreach ( glob( LANDER_TEMPLATES_DIR . '/*/template.php' ) as $file ) {
+    // Two glob passes: a lander's own template.php, plus one level of
+    // nested "step" pages (e.g. {name}/step-2/template.php) for multi-step
+    // funnels. Keyed by the full path relative to LANDER_TEMPLATES_DIR
+    // (not just the immediate folder name) so two landers' same-named step
+    // folders (both having a "step-2", say) don't collide.
+    $files = array_merge(
+        glob( LANDER_TEMPLATES_DIR . '/*/template.php' ),
+        glob( LANDER_TEMPLATES_DIR . '/*/*/template.php' )
+    );
+
+    foreach ( $files as $file ) {
         $data = get_file_data( $file, array( 'name' => 'Template Name' ) );
 
         if ( empty( $data['name'] ) ) {
             continue;
         }
 
-        $key = 'lander-' . basename( dirname( $file ) ) . '.php';
+        $relative = trim( str_replace( LANDER_TEMPLATES_DIR, '', dirname( $file ) ), '/' );
+        $key      = 'lander-' . str_replace( '/', '-', $relative ) . '.php';
 
         $templates[ $key ] = array(
             'label' => $data['name'],

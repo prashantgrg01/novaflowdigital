@@ -25,9 +25,11 @@ jobs:
       - name: Build static previews from each lander's template.php
         run: |
           set -e
-          for f in landers/*/template.php; do
+          # find (not a landers/*/template.php glob) so nested step pages,
+          # e.g. landers/{name}/step-2/template.php, are picked up too.
+          find landers -type f -name template.php | while read -r f; do
             dir=$(dirname "$f")
-            name=$(basename "$dir")
+            rel=${dir#landers/}
             # Strip the leading Template Name PHP header (WordPress-only
             # syntax GitHub Pages can't execute) so the rest renders as
             # plain HTML.
@@ -36,7 +38,7 @@ jobs:
             # once WordPress serves the file from its own domain root) to
             # relative paths that resolve under the Pages project subpath.
             # template.php itself is untouched.
-            sed -i "s#/wp-content/uploads/landers/${name}/assets/#assets/#g" "$dir/index.html"
+            sed -i "s#/wp-content/uploads/landers/${rel}/assets/#assets/#g" "$dir/index.html"
           done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
