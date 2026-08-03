@@ -174,7 +174,7 @@
           <div style="position: absolute; left: -20px; top: -20px; width: 90px; height: 60px; border: 2px solid #15A6AE; border-radius: 6px; opacity: 0.5; z-index: 0;"></div>
           <div style="position: absolute; right: -22px; bottom: -22px; width: 110px; height: 34px; background: #15A6AE; border-radius: 6px; opacity: 0.35; transform: rotate(-4deg); z-index: 0;"></div>
           <div style="position: relative; z-index: 1; aspect-ratio: 4/5; border-radius: 20px; overflow: hidden; box-shadow: 0 24px 48px rgba(22,38,63,0.22); border: 1px solid #E7EEF1;">
-            <img class="nf2-img-slot" src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/step-2/assets/nf2-founder-photo.jpg" alt="James Thomson, founder">
+            <img class="nf2-img-slot" src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/step-2/assets/nf2-founder-photo.jpg" alt="James Thomson, founder" style="height: auto;">
           </div>
           <div style="position: relative; z-index: 1; margin-top: 16px; text-align: center;">
             <p style="font-weight: 800; font-size: 16px; color: #16263F; margin: 0;">James Thomson</p>
