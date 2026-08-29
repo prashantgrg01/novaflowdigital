@@ -66,7 +66,9 @@ Current forms:
   funnel needs it to go (e.g. form id `3`'s success action should redirect
   to step 2's real WordPress URL once that page exists and has a slug).
 
-## Known placeholders to replace before go-live
+## Search engine indexing
 
-- `robots.txt` currently disallows all crawling on the staging preview by
-  default — relax or remove once a lander is public.
+Every lander's `<head>` includes `<meta name="robots" content="noindex, nofollow">`
+so landers stay out of search results on both the GitHub Pages staging
+preview and production, regardless of domain. Remove that tag from a
+lander's `template.php` if it should ever become publicly indexable.
