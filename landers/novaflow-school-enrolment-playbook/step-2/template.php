@@ -50,7 +50,6 @@
     section { padding-top: 56px !important; padding-bottom: 56px !important; }
     section:first-of-type { padding-top: 16px !important; }
     .nf2-hero-pad { padding-top: 16px !important; padding-bottom: 32px !important; }
-    .nf2-form-grid { grid-template-columns: 1fr !important; }
     .nf2-roadmap-grid { grid-template-columns: 1fr !important; }
     .nf2-includes-grid { grid-template-columns: 1fr !important; }
     .nf2-timeline-line { display: none !important; }
@@ -500,27 +499,12 @@
         <h2 style="font-weight: 800; font-size: clamp(26px, 3.2vw, 32px); color: #fff; margin: 0 0 12px;">Ready to turn your playbook into a practical action plan?</h2>
         <p style="font-size: 15.5px; color: #A9BAC9; margin: 0;">Downloading the playbook is the first step. Book your free strategy session and we'll help you prioritise the opportunities most likely to improve your enrolment marketing — no obligation, no sales pressure.</p>
       </div>
-      <form id="nf2-form" style="background: #fff; border-radius: 18px; padding: 32px; box-shadow: 0 30px 60px rgba(0,0,0,0.25); display: flex; flex-direction: column; gap: 14px;">
-        <div class="nf2-form-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
-          <input type="text" required name="firstName" placeholder="Name" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 13px 15px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-          <input type="email" required name="email" placeholder="Email" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 13px 15px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-        </div>
-        <div class="nf2-form-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
-          <input type="tel" required name="phone" placeholder="Mobile" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 13px 15px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-          <input type="text" required name="school" placeholder="School name" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 13px 15px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-        </div>
-        <input type="text" required name="role" placeholder="Your role" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 13px 15px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-        <select required name="challenge" id="nf2-challenge" onchange="nf2ToggleOther()" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 13px 15px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none; background: #fff;">
-          <option value="">Main challenge — select one</option>
-          <option value="enquiries">Increasing enrolment enquiries</option>
-          <option value="quality">Improving the quality of enrolment leads</option>
-          <option value="openday">Increasing Open Day registrations or attendance</option>
-          <option value="planning">Planning campaign activity across the school year</option>
-          <option value="other">Other / tell us more</option>
-        </select>
-        <textarea id="nf2-other-text" name="otherText" placeholder="Tell us more" rows="3" style="display: none; width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 13px 15px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none; resize: vertical;"></textarea>
-        <!-- Honeypot: hidden via inline position, not display:none, so bots that skip display:none fields still get caught -->
-        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;">
+      <div id="nf2-form" style="background: #fff; border-radius: 18px; padding: 32px; box-shadow: 0 30px 60px rgba(0,0,0,0.25); display: flex; flex-direction: column; gap: 14px;">
+        <!-- ActiveCampaign embed form ("Book Your Free Strategy Session").
+             Lead capture, qualification fields (school/role/challenge), the
+             thank-you message, and any redirect are all configured in
+             ActiveCampaign's form settings, not in this page's JS. -->
+        <div class="_form_1"></div><script src="https://novaflowdigital.activehosted.com/f/embed.php?id=1" charset="utf-8"></script>
         <div style="background: linear-gradient(135deg, #EAF6F6 0%, #F2F8F8 100%); border: 1px solid #DCEEEE; border-radius: 16px; padding: 22px 22px 18px; margin-bottom: 4px;">
           <p style="font-weight: 800; font-size: 15px; color: #16263F; margin: 0 0 14px;">Your session includes</p>
           <div class="nf2-includes-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px 14px;">
@@ -556,7 +540,6 @@
             </div>
           </div>
         </div>
-        <button type="submit" class="nf2-cta" style="margin-top: 6px; background: #15A6AE; color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16.5px; padding: 16px; border: none; border-radius: 11px; cursor: pointer; box-shadow: 0 12px 26px rgba(21,166,174,0.32);">Book My Free Strategy Call</button>
         <div style="display: flex; align-items: center; justify-content: center; gap: 18px; padding-top: 4px;">
           <div style="display: flex; align-items: center; gap: 6px;">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M12 2l7 3.5v5.6c0 4.8-3 8.9-7 10.4-4-1.5-7-5.6-7-10.4V5.5L12 2z" stroke="#15A6AE" stroke-width="2" stroke-linejoin="round"></path></svg>
@@ -571,13 +554,6 @@
             <span style="font-size: 12.5px; color: #7C8CA0; font-weight: 600;">Details kept private</span>
           </div>
         </div>
-      </form>
-      <div id="nf2-form-success" style="display: none; background: #fff; border-radius: 18px; padding: 44px 32px; text-align: center; box-shadow: 0 30px 60px rgba(0,0,0,0.25);">
-        <div style="width: 56px; height: 56px; border-radius: 50%; background: #E4F4F5; display: flex; align-items: center; justify-content: center; margin: 0 auto 18px;">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#0E8C93" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-        </div>
-        <h3 style="font-weight: 800; font-size: 21px; color: #16263F; margin: 0 0 8px;">Thanks — we've got it from here.</h3>
-        <p style="font-size: 15px; color: #51637A; margin: 0;">A Novaflow specialist will be in touch shortly to arrange your free strategy session.</p>
       </div>
     </div>
   </section>
@@ -694,37 +670,10 @@
   document.getElementById('nf2-carousel-wrap').addEventListener('mouseenter', function() { clearInterval(nf2Timer); });
   document.getElementById('nf2-carousel-wrap').addEventListener('mouseleave', nf2ResetAutoplay);
 
-  function nf2ToggleOther() {
-    var v = document.getElementById('nf2-challenge').value;
-    document.getElementById('nf2-other-text').style.display = v === 'other' ? 'block' : 'none';
-  }
-
-  document.getElementById('nf2-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    var form = e.target;
-    var success = document.getElementById('nf2-form-success');
-
-    // Staging preview: skip the live submit so test edits don't email the client.
-    if (window.location.hostname.indexOf('github.io') !== -1) {
-      form.style.display = 'none';
-      success.style.display = 'block';
-      return;
-    }
-
-    var data = new FormData(form);
-    data.append('action', 'lander_lead');
-    data.append('lander', 'novaflow-school-enrolment-playbook-step-2'); // this lander's folder name
-
-    // TODO: replace with the real production domain before go-live.
-    fetch('https://example.com/wp-admin/admin-ajax.php', { method: 'POST', body: data })
-      .then(function (r) { return r.json(); })
-      .then(function (res) {
-        if (res.success) {
-          form.style.display = 'none';
-          success.style.display = 'block';
-        }
-      });
-  });
+  // The booking form is now an ActiveCampaign embed (see the _form_1 /
+  // embed.php?id=1 snippet above) — lead capture, the qualification
+  // fields, and the thank-you message are all configured in
+  // ActiveCampaign's form settings, not in this page's JS.
 </script>
 
 </body>

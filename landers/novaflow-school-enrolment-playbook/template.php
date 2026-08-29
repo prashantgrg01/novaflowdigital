@@ -68,21 +68,13 @@
           <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 22px; text-wrap: balance;">The 2026 School <span style="position: relative; white-space: nowrap;">Enrolment<svg width="100%" height="12" viewBox="0 0 140 12" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -6px; width: 100%;"><path d="M2 8 C 40 2, 100 2, 138 8" stroke="var(--accent, #15A6AE)" stroke-width="5" fill="none" stroke-linecap="round"></path></svg></span> Playbook.</h1>
           <p style="font-size: 17.5px; line-height: 1.65; color: #51637A; margin: 0 0 34px; max-width: 540px;">Everything you need to confidently plan your school's enrolment marketing—from annual campaigns and Open Days to benchmarking and budgeting—all in one practical guide.</p>
 
-          <div style="background: #fff; border: 1px solid #E4EDEF; border-radius: 16px; padding: 28px; box-shadow: 0 20px 44px rgba(22,38,63,0.1); max-width: 460px;">
-            <form id="hero-form" style="display: flex; flex-direction: column; gap: 13px;">
-              <input type="text" required placeholder="First name" name="firstName" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 14px 16px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-              <input type="email" required placeholder="School / work email" name="email" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 14px 16px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-              <input type="tel" required placeholder="Phone number" name="phone" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 14px 16px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;">
-              <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;">
-              <button type="submit" style="width: 100%; margin-top: 4px; background: #15A6AE; color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16.5px; padding: 16px; border: none; border-radius: 11px; cursor: pointer; box-shadow: 0 10px 26px rgba(21,166,174,0.32);">Get My Free Playbook</button>
-              <p style="text-align: center; font-size: 13px; color: #8294A2; margin: 10px 0 0;">Free — delivered in 5 minutes. We'll only use this to send your playbook.</p>
-              <div style="display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 4px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AACB8" stroke-width="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AACB8" stroke-width="2" stroke-linecap="round"></path></svg><span style="font-size: 11.5px; color: #93A2AD;">Your information is safe with us. We'll never share it.</span></div>
-            </form>
-            <div id="hero-success" style="display: none; text-align: center; padding: 14px 0;">
-              <div style="width: 56px; height: 56px; border-radius: 50%; background: #E4F4F5; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 16px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#15A6AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-              <h3 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 20px; color: #16263F; margin: 0 0 8px;">On its way!</h3>
-              <p style="font-size: 14.5px; color: #51637A; margin: 0;">Check your inbox in the next few minutes for your 2026 School Enrolment Playbook.</p>
-            </div>
+          <div id="hero-form" style="background: #fff; border: 1px solid #E4EDEF; border-radius: 16px; padding: 28px; box-shadow: 0 20px 44px rgba(22,38,63,0.1); max-width: 460px;">
+            <!-- ActiveCampaign embed form ("School Enrolment Playbook"). Success
+                 behavior (thank-you message / redirect to step 2) is configured
+                 in ActiveCampaign's form settings, not in this page. -->
+            <div class="_form_3"></div><script src="https://novaflowdigital.activehosted.com/f/embed.php?id=3" charset="utf-8"></script>
+            <p style="text-align: center; font-size: 13px; color: #8294A2; margin: 10px 0 0;">Free — delivered in 5 minutes. We'll only use this to send your playbook.</p>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 4px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AACB8" stroke-width="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AACB8" stroke-width="2" stroke-linecap="round"></path></svg><span style="font-size: 11.5px; color: #93A2AD;">Your information is safe with us. We'll never share it.</span></div>
           </div>
         </div>
 
@@ -400,20 +392,12 @@
           <div style="display: flex; gap: 12px; align-items: flex-start; padding: 18px 0;"><span style="flex: none; color: var(--accent, #15A6AE); font-weight: 700; font-size: 16px;">✓</span><div><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15.5px; color: #fff; margin-bottom: 4px;">Budget Planner &amp; Checklists</div><div style="font-size: 14px; color: #93A4B8;">Know what to prioritise and when.</div></div></div>
         </div>
       </div>
-      <div class="nf-reveal" style="background: #fff; border-radius: 18px; padding: 36px; box-shadow: 0 24px 50px rgba(0,0,0,0.28); transition-delay: 0.1s;">
-        <form id="final-form" style="display: flex; flex-direction: column; gap: 13px;">
-          <div style="position: relative;"><span style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #9AACB8;"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><input type="text" required="" placeholder="First name" name="firstName" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 14px 16px 14px 42px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;"></div>
-          <div style="position: relative;"><span style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #9AACB8;"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="none"></path><path d="M4 6h16M4 6v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6M4 6l8 6 8-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><input type="email" required="" placeholder="School email address" name="email" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 14px 16px 14px 42px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;"></div>
-          <div style="position: relative;"><span style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #9AACB8;"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><input type="tel" required="" placeholder="Phone number" name="phone" style="width: 100%; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 14px 16px 14px 42px; border: 1.5px solid #DDE6EA; border-radius: 10px; color: #16263F; outline: none;"></div>
-          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;">
-          <button type="submit" style="width: 100%; margin-top: 6px; background: #15A6AE; color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; padding: 16px; border: none; border-radius: 10px; cursor: pointer;">Send Me the Playbook</button>
-          <div style="display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 6px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AACB8" stroke-width="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AACB8" stroke-width="2" stroke-linecap="round"></path></svg><span style="font-size: 12px; color: #93A2AD;">Your information is safe with us. We'll never share it.</span></div>
-        </form>
-        <div id="final-success" style="display: none; text-align: center; padding: 14px 0;">
-          <div style="width: 56px; height: 56px; border-radius: 50%; background: #E4F4F5; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 16px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#15A6AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-          <h3 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 20px; color: #16263F; margin: 0 0 8px;">On its way!</h3>
-          <p style="font-size: 14.5px; color: #51637A; margin: 0;">Check your inbox in the next few minutes for your 2026 School Enrolment Playbook.</p>
-        </div>
+      <div id="final-form" class="nf-reveal" style="background: #fff; border-radius: 18px; padding: 36px; box-shadow: 0 24px 50px rgba(0,0,0,0.28); transition-delay: 0.1s;">
+        <!-- ActiveCampaign embed form ("School Enrolment Playbook"). Same
+             form as the hero — ActiveCampaign supports the same embed
+             snippet appearing more than once on a page. -->
+        <div class="_form_3"></div><script src="https://novaflowdigital.activehosted.com/f/embed.php?id=3" charset="utf-8"></script>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 6px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AACB8" stroke-width="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AACB8" stroke-width="2" stroke-linecap="round"></path></svg><span style="font-size: 12px; color: #93A2AD;">Your information is safe with us. We'll never share it.</span></div>
       </div>
     </div>
     <p style="text-align: center; font-size: 12.5px; color: #7E8FA2; padding: 32px 24px 0; line-height: 1.6;">© 2026 NovaFlow Digital<br>★★★★★ Trusted by Australian independent schools.</p>
@@ -435,48 +419,10 @@
   });
 })();
 
-// Hero + Final CTA forms -> shared lead-capture endpoint, then redirect to step 2
-var isStaging = window.location.hostname.indexOf('github.io') !== -1;
-// TODO: replace with the real WordPress URL once the step-2 page is created
-// and given its own slug — WordPress pages aren't looked up by this folder
-// path, only by whichever slug the client picks (see spec).
-var STEP2_URL = isStaging ? 'step-2/' : 'https://example.com/book-a-strategy-session/';
-
-function wireForm(formId, successId) {
-  var form = document.getElementById(formId);
-  var success = document.getElementById(successId);
-  if (!form) return;
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-
-    // Staging preview: skip the live submit (so test edits don't email the
-    // client) but still redirect, so reviewers can see the full step 1 ->
-    // step 2 funnel.
-    if (isStaging) {
-      form.style.display = 'none';
-      success.style.display = 'block';
-      window.location.href = STEP2_URL;
-      return;
-    }
-
-    var data = new FormData(form);
-    data.append('action', 'lander_lead');
-    data.append('lander', 'novaflow-school-enrolment-playbook'); // this lander's folder name
-
-    // TODO: replace with the real production domain before go-live.
-    fetch('https://example.com/wp-admin/admin-ajax.php', { method: 'POST', body: data })
-      .then(function (r) { return r.json(); })
-      .then(function (res) {
-        if (res.success) {
-          form.style.display = 'none';
-          success.style.display = 'block';
-          window.location.href = STEP2_URL;
-        }
-      });
-  });
-}
-wireForm('hero-form', 'hero-success');
-wireForm('final-form', 'final-success');
+// Hero + Final CTA forms are now ActiveCampaign embeds (see the
+// _form_3 / embed.php?id=3 snippets above) — lead capture, the
+// thank-you message, and the redirect to step 2 are all configured in
+// ActiveCampaign's form settings, not in this page's JS.
 
 // Scorecard
 (function(){
