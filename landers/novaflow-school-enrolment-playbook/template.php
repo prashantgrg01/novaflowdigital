@@ -314,7 +314,7 @@
             <p style="font-size: 16.5px; line-height: 1.65; color: var(--ink, #16263F); margin: 0 0 24px;">They are specialists in schools marketing. They understand schools, they understand the needs of parents, but they also understand the needs of a school marketing team.</p>
           </div>
           <div style="display: flex; align-items: center; gap: 12px;">
-            <div style="width: 42px; height: 42px; border-radius: 50%; background: repeating-linear-gradient(135deg,#E7EFF1,#E7EFF1 6px,#DDE8EB 6px,#DDE8EB 12px); flex: none;"></div>
+            <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/testimonial-alice-thompson.jpg" alt="Alice Thompson" style="width: 42px; height: 42px; border-radius: 50%; object-fit: cover; flex: none;">
             <div><div style="font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--ink, #16263F); font-size: 14.5px;">Alice Thompson</div><div style="font-size: 12.5px; color: #6C7E8E;">Marketing &amp; Communications Manager, Bundaberg Christian College</div></div>
           </div>
         </div>
@@ -324,7 +324,7 @@
             <p style="font-size: 16.5px; line-height: 1.65; color: var(--ink, #16263F); margin: 0 0 24px;">They understand our school's values and the heart of the school. That's been obvious in the ads, and it's put a fresh take on how we market.</p>
           </div>
           <div style="display: flex; align-items: center; gap: 12px;">
-            <div style="width: 42px; height: 42px; border-radius: 50%; background: repeating-linear-gradient(135deg,#E7EFF1,#E7EFF1 6px,#DDE8EB 6px,#DDE8EB 12px); flex: none;"></div>
+            <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/testimonial-emma-velthuis.jpg" alt="Emma Velthuis" style="width: 42px; height: 42px; border-radius: 50%; object-fit: cover; flex: none;">
             <div><div style="font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--ink, #16263F); font-size: 14.5px;">Emma Velthuis</div><div style="font-size: 12.5px; color: #6C7E8E;">Head of Engagement, Marketing &amp; Comms, Mount Alvernia College</div></div>
           </div>
         </div>
@@ -334,7 +334,7 @@
             <p style="font-size: 16.5px; line-height: 1.65; color: var(--ink, #16263F); margin: 0 0 24px;">Clear communication, strong enrolment outcomes, and monthly reports that showed real impact. We'd highly recommend NovaFlow to any school.</p>
           </div>
           <div style="display: flex; align-items: center; gap: 12px;">
-            <div style="width: 42px; height: 42px; border-radius: 50%; background: repeating-linear-gradient(135deg,#E7EFF1,#E7EFF1 6px,#DDE8EB 6px,#DDE8EB 12px); flex: none;"></div>
+            <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/testimonial-susanna-rossetto.jpg" alt="Susanna Rossetto" style="width: 42px; height: 42px; border-radius: 50%; object-fit: cover; flex: none;">
             <div><div style="font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--ink, #16263F); font-size: 14.5px;">Susanna Rossetto</div><div style="font-size: 12.5px; color: #6C7E8E;">Marketing &amp; Communications Officer, Grace Lutheran Primary School</div></div>
           </div>
         </div>
