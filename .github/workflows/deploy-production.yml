@@ -1,27 +1,39 @@
-name: Trigger SiteGround production deploy
+name: Deploy to SiteGround production
 
-# Placeholder trigger for the spec's step "merge to main -> SiteGround
-# pull/deploy". SiteGround's native Git Version Control tool (Site
-# Tools -> Devs -> Git) must be connected to this repo first (manual,
-# one-time setup — see README), which is also where you obtain the
-# deploy webhook URL/token to store as the SITEGROUND_DEPLOY_WEBHOOK
-# repo secret referenced below.
+# SiteGround's GrowBig plan does not include the native "Git Version
+# Control" tool in Site Tools (that's GoGeek-only), so this deploys via
+# SSH + rsync instead of the Site Tools Git integration the original
+# spec assumed. See README's "Production deploy (SiteGround, GrowBig)"
+# section for the one-time setup this depends on.
 
 on:
   push:
     branches: [main]
 
 jobs:
-  trigger-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Call SiteGround deploy webhook
-        env:
-          SITEGROUND_DEPLOY_WEBHOOK: ${{ secrets.SITEGROUND_DEPLOY_WEBHOOK }}
+      - uses: actions/checkout@v4
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SITEGROUND_SSH_PRIVATE_KEY }}
+
+      - name: Add SiteGround host to known_hosts
         run: |
-          if [ -z "$SITEGROUND_DEPLOY_WEBHOOK" ]; then
-            echo "SITEGROUND_DEPLOY_WEBHOOK secret is not set yet — skipping." \
-                 "Set it once Site Tools -> Devs -> Git is connected (see README)."
-            exit 0
-          fi
-          curl -sS -X POST "$SITEGROUND_DEPLOY_WEBHOOK"
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "${{ secrets.SITEGROUND_SSH_PORT }}" "${{ secrets.SITEGROUND_SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy landers
+        run: |
+          rsync -avz --delete -e "ssh -p ${{ secrets.SITEGROUND_SSH_PORT }}" \
+            landers/ \
+            "${{ secrets.SITEGROUND_SSH_USER }}@${{ secrets.SITEGROUND_SSH_HOST }}:${{ secrets.SITEGROUND_LANDERS_PATH }}/"
+
+      - name: Deploy mu-plugins
+        run: |
+          rsync -avz -e "ssh -p ${{ secrets.SITEGROUND_SSH_PORT }}" \
+            wp-content/mu-plugins/ \
+            "${{ secrets.SITEGROUND_SSH_USER }}@${{ secrets.SITEGROUND_SSH_HOST }}:${{ secrets.SITEGROUND_MUPLUGINS_PATH }}/"

@@ -55,16 +55,39 @@ Current forms:
 - School Enrolment Playbook (step 1): form id `3`
 - Book Your Free Strategy Session (step 2): form id `1`
 
-## One-time manual setup (not done from this repo)
+## Production deploy (SiteGround, GrowBig)
 
-- SSH key auth to SiteGround, verified from a terminal.
-- Site Tools → Devs → Git: connect this repository, set deployment path to
-  `wp-content/uploads/landers/`.
-- Add the `SITEGROUND_DEPLOY_WEBHOOK` repo secret once the above is
-  connected, so `deploy-production.yml` can trigger the pull automatically.
-- In ActiveCampaign, set each form's success action to redirect where the
-  funnel needs it to go (e.g. form id `3`'s success action should redirect
-  to step 2's real WordPress URL once that page exists and has a slug).
+SiteGround's GrowBig plan doesn't include the native "Git Version Control"
+tool in Site Tools (GoGeek-only), so production deploys via SSH + rsync
+from `.github/workflows/deploy-production.yml` instead. One-time setup,
+not done from this repo:
+
+1. Generate an SSH key pair (or use Site Tools → Devs → SSH Keys Manager
+   to generate one and download the private key). Add the public key in
+   SSH Keys Manager if you generated it yourself.
+2. Verify it works manually from a terminal:
+   `ssh -p <port> <username>@<host>` (host, port, and username are shown
+   in Site Tools → Devs → SSH Keys Manager / Site Information).
+3. Find the absolute server paths for `wp-content/uploads/landers/` and
+   `wp-content/mu-plugins/` under your site's document root (e.g.
+   `/home/customer/www/example.com/public_html/wp-content/...` — check
+   via Site Tools → Files → File Manager, or `pwd` over SSH).
+4. Add these as **repo secrets** (Settings → Secrets and variables →
+   Actions):
+   - `SITEGROUND_SSH_PRIVATE_KEY` — the private key contents
+   - `SITEGROUND_SSH_HOST`
+   - `SITEGROUND_SSH_PORT`
+   - `SITEGROUND_SSH_USER`
+   - `SITEGROUND_LANDERS_PATH` — absolute path to `wp-content/uploads/landers`
+   - `SITEGROUND_MUPLUGINS_PATH` — absolute path to `wp-content/mu-plugins`
+5. Push to `main` (only reached by merging from `staging` after review)
+   to trigger the deploy. The workflow rsyncs `/landers` (with `--delete`,
+   so removed landers are cleaned up on the server) and
+   `wp-content/mu-plugins` (without `--delete`, since that directory may
+   hold other must-use plugins outside this repo).
+6. In ActiveCampaign, set each form's success action to redirect where the
+   funnel needs it to go (e.g. form id `3`'s success action should redirect
+   to step 2's real WordPress URL once that page exists and has a slug).
 
 ## Search engine indexing
 
