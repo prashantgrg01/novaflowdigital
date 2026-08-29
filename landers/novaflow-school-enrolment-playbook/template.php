@@ -1,12 +1,12 @@
 <?php
-/* Template Name: NovaFlow — School Enrolment Playbook */
+/* Template Name: NovaFlow: School Enrolment Playbook */
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The 2026 School Enrolment Playbook — NovaFlow Digital</title>
+<title>The 2026 School Enrolment Playbook, NovaFlow Digital</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -66,19 +66,19 @@
         <div class="nf-reveal">
           <div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-dark, #0E8C93); margin-bottom: 14px;">Free · 2026 Edition</div>
           <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 22px; text-wrap: balance;">The 2026 School <span style="position: relative; white-space: nowrap;">Enrolment<svg width="100%" height="12" viewBox="0 0 140 12" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -6px; width: 100%;"><path d="M2 8 C 40 2, 100 2, 138 8" stroke="var(--accent, #15A6AE)" stroke-width="5" fill="none" stroke-linecap="round"></path></svg></span> Playbook.</h1>
-          <p style="font-size: 17.5px; line-height: 1.65; color: #51637A; margin: 0 0 34px; max-width: 540px;">Everything you need to confidently plan your school's enrolment marketing—from annual campaigns and Open Days to benchmarking and budgeting—all in one practical guide.</p>
+          <p style="font-size: 17.5px; line-height: 1.65; color: #51637A; margin: 0 0 34px; max-width: 540px;">Everything you need to confidently plan your school's enrolment marketing, from annual campaigns and Open Days to benchmarking and budgeting, all in one practical guide.</p>
 
           <div id="hero-form" style="background: #fff; border: 1px solid #E4EDEF; border-radius: 16px; padding: 28px; box-shadow: 0 20px 44px rgba(22,38,63,0.1); max-width: 460px;">
             <!-- ActiveCampaign embed form ("School Enrolment Playbook"). Success
                  behavior (thank-you message / redirect to step 2) is configured
                  in ActiveCampaign's form settings, not in this page. -->
             <div class="_form_3"></div><script src="https://novaflowdigital.activehosted.com/f/embed.php?id=3" charset="utf-8"></script>
-            <p style="text-align: center; font-size: 13px; color: #8294A2; margin: 10px 0 0;">Free — delivered in 5 minutes. We'll only use this to send your playbook.</p>
+            <p style="text-align: center; font-size: 13px; color: #8294A2; margin: 10px 0 0;">Free: delivered in 5 minutes. We'll only use this to send your playbook.</p>
             <div style="display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 4px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AACB8" stroke-width="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AACB8" stroke-width="2" stroke-linecap="round"></path></svg><span style="font-size: 11.5px; color: #93A2AD;">Your information is safe with us. We'll never share it.</span></div>
           </div>
         </div>
 
-        <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2026 School Enrolment Playbook — cover and interior pages" class="nf-reveal nf-hover-lift" style="width: 118%; max-width: none; height: auto; display: block; transition-delay: 0.12s;">
+        <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2026 School Enrolment Playbook: cover and interior pages" class="nf-reveal nf-hover-lift" style="width: 118%; max-width: none; height: auto; display: block; transition-delay: 0.12s;">
       </div>
     </div>
   </section>
@@ -113,7 +113,7 @@
   <section class="nf-section" style="padding: 88px 0; background: var(--ink, #16263F);">
     <div class="nf-reveal" style="max-width: 760px; margin: 0 auto; padding: 0 24px; text-align: center;">
       <h2 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(24px, 2.8vw, 32px); line-height: 1.35; letter-spacing: -0.02em; color: #fff; margin: 0 0 22px;">Most school campaigns don't fail because of creativity.</h2>
-      <p style="font-size: 17px; line-height: 1.7; color: #B7C4D3; margin: 0 0 32px;">Most underfunded campaigns were never going to work. Short bursts at half the required spend mostly buy impressions, not enrolments — and cutting them just reinforces the belief that ads don't work for schools. The playbook explains why, and what to do instead.</p>
+      <p style="font-size: 17px; line-height: 1.7; color: #B7C4D3; margin: 0 0 32px;">Most underfunded campaigns were never going to work. Short bursts at half the required spend mostly buy impressions, not enrolments, and cutting them just reinforces the belief that ads don't work for schools. The playbook explains why, and what to do instead.</p>
       <a href="#top" onclick="document.getElementById('hero-form').scrollIntoView({behavior:'smooth',block:'center'});return false;" style="display: inline-flex; align-items: center; gap: 9px; background: var(--accent, #15A6AE); color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15.5px; padding: 14px 28px; border-radius: 10px; text-decoration: none;" style-hover="background: var(--accent-dark, #0E8C93);">Get My Free Playbook</a>
     </div>
   </section>
@@ -133,7 +133,7 @@
       <div class="nf-reveal" style="transition-delay: 0.08s;">
         <div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-dark, #0E8C93); margin-bottom: 14px;">Why we created this playbook</div>
         <h2 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(24px, 2.8vw, 32px); letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 18px;">That's why we built this playbook.</h2>
-        <p style="font-size: 16.5px; line-height: 1.7; color: #51637A; margin: 0 0 26px;">We built this playbook because we kept seeing the same gap: schools running solid campaigns without the timing, runway or proof points to convert real interest into enrolments. Every framework on the next page is drawn directly from work we've done with schools like the one above — not theory, not a template pulled off the shelf.</p>
+        <p style="font-size: 16.5px; line-height: 1.7; color: #51637A; margin: 0 0 26px;">We built this playbook because we kept seeing the same gap: schools running solid campaigns without the timing, runway or proof points to convert real interest into enrolments. Every framework on the next page is drawn directly from work we've done with schools like the one above: not theory, not a template pulled off the shelf.</p>
         <a href="#top" onclick="document.getElementById('hero-form').scrollIntoView({behavior:'smooth',block:'center'});return false;" style="display: inline-flex; align-items: center; gap: 9px; background: var(--accent, #15A6AE); color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15.5px; padding: 14px 28px; border-radius: 10px; text-decoration: none;" style-hover="background: var(--accent-dark, #0E8C93);">Get My Free Playbook</a>
       </div>
     </div>
@@ -143,7 +143,7 @@
   <section class="nf-section" style="padding: 88px 0; background: #F4F8F9;">
     <div style="max-width: 900px; margin: 0 auto; padding: 0 24px; text-align: center;">
       <h2 class="nf-reveal" style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(26px, 3.2vw, 38px); line-height: 1.15; letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 16px; text-wrap: balance;">Built for the people responsible for enrolment growth.</h2>
-      <p class="nf-reveal" style="font-size: 18px; line-height: 1.7; margin: 0 0 44px; transition-delay: 0.06s;">Built for marketing managers, enrolment managers, principals and communications teams at Australian independent schools — especially if your school is facing rising ad costs, longer parent decision cycles or a shrinking student pool.</p>
+      <p class="nf-reveal" style="font-size: 18px; line-height: 1.7; margin: 0 0 44px; transition-delay: 0.06s;">Built for marketing managers, enrolment managers, principals and communications teams at Australian independent schools: especially if your school is facing rising ad costs, longer parent decision cycles or a shrinking student pool.</p>
       <div class="nf-who-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: left; margin-bottom: 24px;">
         <div class="nf-reveal nf-hover-lift" style="display: flex; gap: 16px; align-items: flex-start; background: #fff; border-top: 3px solid #E9A23B; border-radius: 14px; padding: 24px; box-shadow: 0 0 0 rgba(22,38,63,0);" style-hover="box-shadow: 0 14px 30px rgba(22,38,63,0.1);">
           <span style="flex: none; width: 44px; height: 44px; border-radius: 12px; background: #FCF0DD; display: inline-flex; align-items: center; justify-content: center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#E9A23B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
@@ -172,12 +172,12 @@
           <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/openday-planner.png" alt="Open Day Blueprint playbook page preview" class="nf-reveal nf-hover-img" style="width: 200px; aspect-ratio: 3/4; object-fit: cover; object-position: top; border-radius: 14px; box-shadow: 0 16px 32px rgba(22,38,63,0.14); transform: rotate(4deg); display: block; transition: transform 0.32s ease, box-shadow 0.32s ease, opacity 0.75s ease; transition-delay: 0.2s;">
         </div>
         <div class="nf-reveal" style="display: flex; flex-direction: column; gap: 20px; transition-delay: 0.1s;">
-          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Know exactly what to run, and when</strong> — the Annual Campaign Planner, a full 12-month view mapped to the school year</span></div>
-          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Fill every Open Day</strong> — the 6-Week Open Day Blueprint, the exact framework used with every school Novaflow works with</span></div>
-          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">See what actually worked elsewhere</strong> — Real School Case Studies, named schools, real numbers</span></div>
-          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Spend with confidence</strong> — the Budget Reality Check, what schools actually spend, and why bursts cost more</span></div>
-          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Fix what's leaking leads</strong> — the Conversion Checklist, 41 practical items across landing pages, forms and tracking</span></div>
-          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">See exactly where you stand</strong> — the Marketing Scorecard, a 12-question self-assessment for your leadership team</span></div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Know exactly what to run, and when</strong>: the Annual Campaign Planner, a full 12-month view mapped to the school year</span></div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Fill every Open Day</strong>: the 6-Week Open Day Blueprint, the exact framework used with every school Novaflow works with</span></div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">See what actually worked elsewhere</strong>: Real School Case Studies, named schools, real numbers</span></div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Spend with confidence</strong>: the Budget Reality Check, what schools actually spend, and why bursts cost more</span></div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">Fix what's leaking leads</strong>: the Conversion Checklist, 41 practical items across landing pages, forms and tracking</span></div>
+          <div style="display: flex; gap: 14px; align-items: flex-start;"><span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--accent, #15A6AE); margin-top: 8px;"></span><span style="font-size: 15.5px; color: #2F3F52; line-height: 1.5;"><strong style="color: var(--ink, #16263F);">See exactly where you stand</strong>: the Marketing Scorecard, a 12-question self-assessment for your leadership team</span></div>
         </div>
       </div>
       <div style="text-align: center; margin-top: 48px;"><a href="#top" onclick="document.getElementById('hero-form').scrollIntoView({behavior:'smooth',block:'center'});return false;" style="display: inline-flex; align-items: center; gap: 9px; background: var(--accent, #15A6AE); color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; padding: 15px 30px; border-radius: 11px; text-decoration: none; box-shadow: 0 10px 26px rgba(21,166,174,0.3);" style-hover="background: var(--accent-dark, #0E8C93);">Get My Free Playbook</a></div>
@@ -249,7 +249,7 @@
       <div style="text-align: center; margin-bottom: 36px;">
         <div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-dark, #0E8C93); margin-bottom: 10px;">Takes 30 seconds</div>
         <h2 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(24px, 2.8vw, 32px); letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 10px;">Score your school. Honestly.</h2>
-        <p style="font-size: 15px; color: #6C7E8E; margin: 0; max-width: 480px; margin-left: auto; margin-right: auto;">Tap Y (2 pts), P (1 pt) or N (0 pts) for each — no cheating, the point is to see where you actually stand.</p>
+        <p style="font-size: 15px; color: #6C7E8E; margin: 0; max-width: 480px; margin-left: auto; margin-right: auto;">Tap Y (2 pts), P (1 pt) or N (0 pts) for each: no cheating, the point is to see where you actually stand.</p>
       </div>
       <div style="background: #F4F8F9; border-radius: 16px; padding: 28px 32px; display: flex; flex-direction: column;">
           <div class="sc-row" data-q="1" style="display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid #E4EDEF;">
@@ -285,7 +285,7 @@
         <p id="sc-reveal-text" style="font-size: 17px; color: #fff; line-height: 1.6; margin: 0 0 22px; max-width: 480px; margin-left: auto; margin-right: auto;"></p>
         <a href="#hero-form" id="sc-cta" style="display: inline-flex; align-items: center; gap: 9px; background: #15A6AE; color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15.5px; padding: 13px 26px; border-radius: 10px; text-decoration: none;">Get the full 12-question scorecard →</a>
       </div>
-      <p id="sc-hint" style="font-size: 15.5px; color: #51637A; line-height: 1.7; margin: 26px 0 0; text-align: center;">Answer all three to see your teaser score. The full 12-question scorecard is inside — have your whole leadership team take it separately and compare answers.</p>
+      <p id="sc-hint" style="font-size: 15.5px; color: #51637A; line-height: 1.7; margin: 26px 0 0; text-align: center;">Answer all three to see your teaser score. The full 12-question scorecard is inside: have your whole leadership team take it separately and compare answers.</p>
     </div>
   </section>
 
@@ -295,14 +295,14 @@
       <h2 class="nf-reveal" style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(24px, 2.8vw, 32px); letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 40px; text-align: center;">Real schools. Real numbers.</h2>
       <div class="nf-proof-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
         <div class="nf-reveal nf-hover-lift" style="background: #F4F8F9; border-radius: 18px; padding: 38px;">
-          <div style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px; color: #8294A2; margin-bottom: 20px;">Redlands College — a full year of always-on activity</div>
+          <div style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px; color: #8294A2; margin-bottom: 20px;">Redlands College: a full year of always-on activity</div>
           <div style="display: flex; gap: 32px;">
             <div><div style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 64px; color: var(--accent, #15A6AE); line-height: 1; letter-spacing: -0.02em;">548</div><div style="font-size: 13px; color: #6C7E8E; margin-top: 8px;">enrolment applications</div></div>
             <div><div style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 64px; color: var(--accent, #15A6AE); line-height: 1; letter-spacing: -0.02em;">342</div><div style="font-size: 13px; color: #6C7E8E; margin-top: 8px;">Open Day &amp; Twilight Tour registrations</div></div>
           </div>
         </div>
         <div class="nf-reveal nf-hover-lift" style="background: var(--ink, #16263F); border-radius: 18px; padding: 38px; transition-delay: 0.08s;">
-          <div style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px; color: #9DAFC1; margin-bottom: 20px;">Bundaberg Christian College — zero attribution to full traceability</div>
+          <div style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px; color: #9DAFC1; margin-bottom: 20px;">Bundaberg Christian College: zero attribution to full traceability</div>
           <div><div style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 64px; color: var(--accent, #15A6AE); line-height: 1; letter-spacing: -0.02em;">75</div><div style="font-size: 13px; color: #9DAFC1; margin-top: 8px;">enrolment applications, each traceable to its campaign</div></div>
         </div>
       </div>
@@ -372,7 +372,7 @@
       <div class="nf-reveal" style="transition-delay: 0.08s;">
         <p style="font-size: 15.5px; color: #6C7E8E; margin: 0 0 20px;">Inside the playbook.</p>
         <div style="background: #F4F8F9; border-radius: 20px; padding: 24px; position: relative; display: flex; align-items: center; justify-content: center;">
-          <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2026 School Enrolment Playbook — cover and interior pages" style="width: 100%; height: auto; display: block; border-radius: 10px;">
+          <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2026 School Enrolment Playbook: cover and interior pages" style="width: 100%; height: auto; display: block; border-radius: 10px;">
         </div>
         <div style="text-align: center; margin-top: 32px;"><a href="#top" onclick="document.getElementById('hero-form').scrollIntoView({behavior:'smooth',block:'center'});return false;" style="display: inline-flex; align-items: center; gap: 9px; background: var(--accent, #15A6AE); color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; padding: 15px 30px; border-radius: 11px; text-decoration: none; box-shadow: 0 10px 26px rgba(21,166,174,0.3);" style-hover="background: var(--accent-dark, #0E8C93);">Get My Free Playbook</a></div>
       </div>
@@ -394,13 +394,13 @@
       </div>
       <div id="final-form" class="nf-reveal" style="background: #fff; border-radius: 18px; padding: 36px; box-shadow: 0 24px 50px rgba(0,0,0,0.28); transition-delay: 0.1s;">
         <!-- ActiveCampaign embed form ("School Enrolment Playbook"). Same
-             form as the hero — ActiveCampaign supports the same embed
+             form as the hero: ActiveCampaign supports the same embed
              snippet appearing more than once on a page. -->
         <div class="_form_3"></div><script src="https://novaflowdigital.activehosted.com/f/embed.php?id=3" charset="utf-8"></script>
         <div style="display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 6px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AACB8" stroke-width="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AACB8" stroke-width="2" stroke-linecap="round"></path></svg><span style="font-size: 12px; color: #93A2AD;">Your information is safe with us. We'll never share it.</span></div>
       </div>
     </div>
-    <p style="text-align: center; font-size: 12.5px; color: #7E8FA2; padding: 32px 24px 0; line-height: 1.6;">© 2026 NovaFlow Digital<br>★★★★★ Trusted by Australian independent schools.</p>
+    <p style="text-align: center; font-size: 12.5px; color: #7E8FA2; padding: 32px 24px 0;">© 2026 NovaFlow Digital. Trusted by 70+ Australian Schools.</p>
   </section>
 
 
@@ -420,7 +420,7 @@
 })();
 
 // Hero + Final CTA forms are now ActiveCampaign embeds (see the
-// _form_3 / embed.php?id=3 snippets above) — lead capture, the
+// _form_3 / embed.php?id=3 snippets above): lead capture, the
 // thank-you message, and the redirect to step 2 are all configured in
 // ActiveCampaign's form settings, not in this page's JS.
 
@@ -446,7 +446,7 @@
       var score = vals.reduce(function(a,b){ return a+b; }, 0);
       document.getElementById('sc-score').textContent = score;
       var reveal;
-      if (score <= 2) reveal = "There's real room to tighten this up — the full scorecard shows you exactly where.";
+      if (score <= 2) reveal = "There's real room to tighten this up: the full scorecard shows you exactly where.";
       else if (score <= 4) reveal = "You're doing some things right. The full 12-question scorecard shows what's still missing.";
       else reveal = 'Strong start on these three. The full scorecard checks the other nine that matter just as much.';
       document.getElementById('sc-reveal-text').textContent = reveal;

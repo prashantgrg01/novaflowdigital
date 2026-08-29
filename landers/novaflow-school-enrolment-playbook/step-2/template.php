@@ -1,12 +1,12 @@
 <?php
-/* Template Name: NovaFlow — School Enrolment Playbook (Step 2 — Book a Session) */
+/* Template Name: NovaFlow: School Enrolment Playbook (Step 2: Book a Session) */
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Novaflow Digital — Book Your Free Strategy Session</title>
+<title>Novaflow Digital, Book Your Free Strategy Session</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -127,7 +127,7 @@
         <a href="#strategy-form" class="nf2-cta" style="display: inline-flex; align-items: center; gap: 10px; background: #15A6AE; color: #fff; font-weight: 700; font-size: 17px; padding: 18px 34px; border-radius: 11px; text-decoration: none; box-shadow: 0 12px 30px rgba(21,166,174,0.32);">Book your free strategy session
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         </a>
-        <p style="font-size: 13.5px; color: #8394A5; margin: 16px 0 0;">Your playbook should land within five minutes — check spam or promotions if it's missing.</p>
+        <p style="font-size: 13.5px; color: #8394A5; margin: 16px 0 0;">Your playbook should land within five minutes: check spam or promotions if it's missing.</p>
       </div>
       <div style="position: relative; padding: 20px 0 20px 20px;">
         <div style="position: relative; width: 100%; aspect-ratio: 4/3;">
@@ -195,7 +195,7 @@
               <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">A college back to full capacity</p>
             </div>
           </div>
-          <p style="font-size: 15px; line-height: 1.65; color: #45566A; margin: 0 0 22px;">Before founding Novaflow Digital, James spent seven years growing enrolments inside independent schools. He wrote this playbook for marketers and principals staring down sharper competition and slower-deciding parents — operator-grade thinking from someone who has sat on your side of the table.</p>
+          <p style="font-size: 15px; line-height: 1.65; color: #45566A; margin: 0 0 22px;">Before founding Novaflow Digital, James spent seven years growing enrolments inside independent schools. He wrote this playbook for marketers and principals staring down sharper competition and slower-deciding parents: operator-grade thinking from someone who has sat on your side of the table.</p>
           <div style="border-left: 3px solid #15A6AE; padding-left: 18px;">
             <p style="font-size: 15.5px; font-style: italic; line-height: 1.6; color: #16263F; margin: 0 0 8px;">"A good marketing campaign is like a good bottle of wine. It needs time. The Schools that try to compress 6 weeks of live campaign into 2 always end up paying more for less."</p>
             <p style="font-size: 12.5px; font-weight: 700; color: #15A6AE; margin: 0; text-transform: uppercase; letter-spacing: 0.04em;">James Thomson, Novaflow Digital</p>
@@ -240,7 +240,7 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 17l6-6 4 4 6-8" stroke="#0E8C93" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
           </div>
           <p style="font-weight: 700; font-size: 15.5px; color: #16263F; margin: 0 0 6px;">Leave with a practical roadmap</p>
-          <p style="font-size: 13.5px; color: #6C7E8E; line-height: 1.5; margin: 0;">You'll finish with clear priorities and practical next steps — not generic advice.</p>
+          <p style="font-size: 13.5px; color: #6C7E8E; line-height: 1.5; margin: 0;">You'll finish with clear priorities and practical next steps: not generic advice.</p>
         </div>
       </div>
       <div style="text-align: center;">
@@ -274,7 +274,7 @@
         <div style="flex-shrink: 0; width: 44px; height: 44px; border-radius: 10px; background: rgba(255,255,255,0.08); color: #15A6AE; font-weight: 800; font-size: 17px; display: flex; align-items: center; justify-content: center;">03</div>
         <div>
           <h3 style="font-weight: 800; font-size: 21px; color: #fff; margin: 0 0 10px;">Built by people who understand school marketing.</h3>
-          <p style="font-size: 15.5px; color: #A9BAC9; line-height: 1.6; margin: 0;">You'll speak directly with a Novaflow strategist who works exclusively with Australian schools — not a generalist reading from a script.</p>
+          <p style="font-size: 15.5px; color: #A9BAC9; line-height: 1.6; margin: 0;">You'll speak directly with a Novaflow strategist who works exclusively with Australian schools: not a generalist reading from a script.</p>
         </div>
       </div>
       <div style="text-align: center; margin-top: 44px;">
@@ -326,7 +326,7 @@
             <div style="background: #F7FBFC; border-radius: 14px; padding: 18px 20px; display: flex; gap: 12px; align-items: flex-start;">
               <span style="font-size: 26px; color: #15A6AE; font-weight: 800; line-height: 1;">"</span>
               <div>
-                <p style="font-size: 14px; color: #16263F; line-height: 1.55; margin: 0 0 8px;">Novaflow's framework gave us full visibility into what was actually working — no more guessing.</p>
+                <p style="font-size: 14px; color: #16263F; line-height: 1.55; margin: 0 0 8px;">Novaflow's framework gave us full visibility into what was actually working: no more guessing.</p>
                 <p style="font-size: 12px; font-weight: 700; color: #15A6AE; margin: 0; text-transform: uppercase; letter-spacing: 0.04em;">Marketing Manager • Bundaberg Christian College</p>
               </div>
             </div>
@@ -363,7 +363,7 @@
             </div>
           </div>
           <div style="margin-top: 18px; background: #F7FBFC; border-radius: 12px; padding: 14px 16px;">
-            <p style="font-size: 13px; color: #16263F; line-height: 1.5; margin: 0 0 6px; font-style: italic;">"They understand our school's values and the heart of the school — it's put a fresh take on how we market."</p>
+            <p style="font-size: 13px; color: #16263F; line-height: 1.5; margin: 0 0 6px; font-style: italic;">"They understand our school's values and the heart of the school; it's put a fresh take on how we market."</p>
             <p style="font-size: 11.5px; font-weight: 700; color: #15A6AE; margin: 0; text-transform: uppercase; letter-spacing: 0.03em;">Marketing &amp; Communications Manager</p>
           </div>
         </div>
@@ -387,7 +387,7 @@
             </div>
           </div>
           <div style="margin-top: 18px; background: #F7FBFC; border-radius: 12px; padding: 14px 16px;">
-            <p style="font-size: 13px; color: #16263F; line-height: 1.5; margin: 0 0 6px; font-style: italic;">"True experts who know the digital advertising landscape inside out — anything but 'set and forget,' with real care and strategy behind everything they do."</p>
+            <p style="font-size: 13px; color: #16263F; line-height: 1.5; margin: 0 0 6px; font-style: italic;">"True experts who know the digital advertising landscape inside out: anything but 'set and forget,' with real care and strategy behind everything they do."</p>
             <p style="font-size: 11.5px; font-weight: 700; color: #15A6AE; margin: 0; text-transform: uppercase; letter-spacing: 0.03em;">Emma Velthuis • Head of Engagement</p>
           </div>
         </div>
@@ -469,7 +469,7 @@
           </div>
           <div style="font-weight: 800; font-size: 28px; color: #15A6AE; line-height: 1; margin-bottom: 10px;">1.48</div>
           <p style="font-weight: 700; font-size: 14.5px; color: #16263F; margin: 0 0 6px;">Australia's fertility rate</p>
-          <p style="font-size: 13px; color: #6C7E8E; line-height: 1.5; margin: 0;">The lowest ever recorded — the pool of prospective students is shrinking every year.</p>
+          <p style="font-size: 13px; color: #6C7E8E; line-height: 1.5; margin: 0;">The lowest ever recorded: the pool of prospective students is shrinking every year.</p>
         </div>
         <div class="nf2-card-hover" style="background: #fff; border: 1px solid #E7EEF1; border-radius: 14px; padding: 24px; text-align: left;">
           <div style="width: 34px; height: 34px; border-radius: 9px; background: #E4F4F5; display: flex; align-items: center; justify-content: center; margin-bottom: 14px;">
@@ -488,7 +488,7 @@
           <p style="font-size: 13px; color: #6C7E8E; line-height: 1.5; margin: 0;">Miss the window and your next serious shot is a full term away.</p>
         </div>
       </div>
-      <p style="text-align: center; font-size: 15px; color: #51637A; max-width: 640px; margin: 32px auto 0;">The schools winning in 2026 aren't the ones with the biggest budgets — they're the ones making sharper decisions sooner. A 30-minute session now is the difference between planning for next term and reacting to it.</p>
+      <p style="text-align: center; font-size: 15px; color: #51637A; max-width: 640px; margin: 32px auto 0;">The schools winning in 2026 aren't the ones with the biggest budgets; they're the ones making sharper decisions sooner. A 30-minute session now is the difference between planning for next term and reacting to it.</p>
     </div>
   </section>
 
@@ -497,7 +497,7 @@
     <div style="max-width: 640px; margin: 0 auto;">
       <div style="text-align: center; margin-bottom: 30px;">
         <h2 style="font-weight: 800; font-size: clamp(26px, 3.2vw, 32px); color: #fff; margin: 0 0 12px;">Ready to turn your playbook into a practical action plan?</h2>
-        <p style="font-size: 15.5px; color: #A9BAC9; margin: 0;">Downloading the playbook is the first step. Book your free strategy session and we'll help you prioritise the opportunities most likely to improve your enrolment marketing — no obligation, no sales pressure.</p>
+        <p style="font-size: 15.5px; color: #A9BAC9; margin: 0;">Downloading the playbook is the first step. Book your free strategy session and we'll help you prioritise the opportunities most likely to improve your enrolment marketing: no obligation, no sales pressure.</p>
       </div>
       <div id="nf2-form" style="background: #fff; border-radius: 18px; padding: 32px; box-shadow: 0 30px 60px rgba(0,0,0,0.25); display: flex; flex-direction: column; gap: 14px;">
         <!-- ActiveCampaign embed form ("Book Your Free Strategy Session").
@@ -563,7 +563,7 @@
     <div style="max-width: 980px; margin: 0 auto; text-align: center;">
       <div style="font-weight: 700; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #15A6AE; margin-bottom: 14px;">Before you go</div>
       <h2 style="font-weight: 800; font-size: clamp(24px, 3.2vw, 32px); color: #16263F; margin: 0 0 14px;">What happens after you submit the form</h2>
-      <p style="font-size: 16px; color: #51637A; max-width: 520px; margin: 0 auto 44px;">No hard sell, no waiting around — here's exactly what to expect once you hit submit.</p>
+      <p style="font-size: 16px; color: #51637A; max-width: 520px; margin: 0 auto 44px;">No hard sell, no waiting around: here's exactly what to expect once you hit submit.</p>
       <div style="position: relative;">
         <div class="nf2-timeline-line" style="position: absolute; top: 30px; left: 10%; right: 10%; height: 2px; background: repeating-linear-gradient(90deg, #BFE0E0 0, #BFE0E0 8px, transparent 8px, transparent 16px);"></div>
         <div class="nf2-steps" style="position: relative; display: grid; grid-template-columns: repeat(5, 1fr); gap: 22px;">
@@ -606,7 +606,7 @@
   </section>
 
   <footer style="background: #F7FBFC; border-top: 1px solid #E7EEF1; padding: 28px 24px; text-align: center;">
-    <p style="font-size: 13px; color: #8394A5; margin: 0;">© Novaflow Digital. Working exclusively with schools across Australia.</p>
+    <p style="font-size: 13px; color: #8394A5; margin: 0;">© 2026 NovaFlow Digital. Trusted by 70+ Australian Schools.</p>
   </footer>
 
 </div>
@@ -671,7 +671,7 @@
   document.getElementById('nf2-carousel-wrap').addEventListener('mouseleave', nf2ResetAutoplay);
 
   // The booking form is now an ActiveCampaign embed (see the _form_1 /
-  // embed.php?id=1 snippet above) — lead capture, the qualification
+  // embed.php?id=1 snippet above): lead capture, the qualification
   // fields, and the thank-you message are all configured in
   // ActiveCampaign's form settings, not in this page's JS.
 </script>
