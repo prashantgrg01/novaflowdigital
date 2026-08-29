@@ -187,12 +187,12 @@
               <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">Working inside independent schools</p>
             </div>
             <div style="border: 1px solid #E4EDEF; border-radius: 14px; padding: 20px 16px;">
-              <div style="font-weight: 800; font-size: 32px; color: #16263F; line-height: 1;">450→850</div>
-              <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">Students grown at one school</p>
+              <div style="font-weight: 800; font-size: 32px; color: #16263F; line-height: 1;">+89%</div>
+              <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">Student growth at one school</p>
             </div>
             <div style="border: 1px solid #E4EDEF; border-radius: 14px; padding: 20px 16px;">
-              <div style="font-weight: 800; font-size: 32px; color: #16263F; line-height: 1;">1250→1300</div>
-              <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">A college back to full capacity</p>
+              <div style="font-weight: 800; font-size: 32px; color: #16263F; line-height: 1;">+4%</div>
+              <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">Enrolment growth, college back to full capacity</p>
             </div>
           </div>
           <p style="font-size: 15px; line-height: 1.65; color: #45566A; margin: 0 0 22px;">Before founding Novaflow Digital, James spent seven years growing enrolments inside independent schools. He wrote this playbook for marketers and principals staring down sharper competition and slower-deciding parents: operator-grade thinking from someone who has sat on your side of the table.</p>
@@ -449,8 +449,34 @@
 
   <!-- TRUSTED LOGOS -->
   <section style="padding: 88px 24px;">
-    <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
-      <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/step-2/assets/school-partner-logos.png" alt="Trusted by leading Australian schools and educational partners" style="width: 100%; height: auto; display: block;">
+    <div class="nf2-fade" style="max-width: 1000px; margin: 0 auto; text-align: center;">
+      <h2 style="font-weight: 800; font-size: clamp(22px, 2.8vw, 30px); color: #16263F; line-height: 1.25; margin: 0 0 32px;">Trusted by leading Australian <span style="position: relative; display: inline-block;">schools<svg width="100%" height="10" viewBox="0 0 200 10" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -4px; width: 100%;"><path d="M2 7 Q100 -2 198 7" stroke="#15A6AE" stroke-width="3" fill="none" stroke-linecap="round"></path></svg></span> and educational partners</h2>
+      <div class="nf2-logos-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-1.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-2.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-3.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-4.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-5.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-6.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-7.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div class="nf2-logo-cell" style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-8.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+      </div>
     </div>
   </section>
 
