@@ -27,11 +27,15 @@
     .nf-stat-row { grid-template-columns: 1fr 1fr !important; }
     .nf-roadmap-row { grid-template-columns: 1fr !important; gap: 28px !important; }
     .nf-roadmap-row > div[style*="grid-column: 1 / -1"] { display: none; }
+    .nf-roadmap-item { grid-column: 1 !important; grid-row: auto !important; }
+    .sc-row { flex-wrap: wrap; }
+    .sc-row > div:last-child { flex: 1 0 100%; margin-top: 10px; margin-left: 48px; }
   }
   @media (max-width: 900px) {
     .nf-hero { grid-template-columns: 1fr !important; gap: 40px !important; }
     .nf-who-grid { grid-template-columns: 1fr !important; }
     .nf-stat-row { grid-template-columns: 1fr 1fr !important; }
+    .nf-hero-mockup { width: 100% !important; max-width: 100% !important; }
   }
   @media (max-width: 900px) {
     .nf-credibility-grid { grid-template-columns: 1fr !important; }
@@ -81,7 +85,7 @@
           </div>
         </div>
 
-        <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2026 School Enrolment Playbook: cover and interior pages" class="nf-reveal nf-hover-lift" style="width: 118%; max-width: none; height: auto; display: block; transition-delay: 0.12s;">
+        <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2026 School Enrolment Playbook: cover and interior pages" class="nf-reveal nf-hover-lift nf-hero-mockup" style="width: 118%; max-width: none; height: auto; display: block; transition-delay: 0.12s;">
       </div>
     </div>
   </section>
@@ -198,19 +202,19 @@
     <div style="max-width: 1080px; margin: 0 auto; padding: 0 24px; position: relative;">
       <div class="nf-roadmap-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; position: relative;">
         <div style="grid-column: 1 / -1; grid-row: 1; height: 2px; background-image: linear-gradient(to right, rgba(255,255,255,0.18) 0 10px, transparent 10px 20px); background-size: 20px 2px; margin-top: 33px;"></div>
-        <div class="nf-reveal" style="grid-column: 1; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative;">
+        <div class="nf-reveal nf-roadmap-item" style="grid-column: 1; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: #16263F; border: 2px solid rgba(21,166,174,0.5); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: var(--accent, #15A6AE); font-size: 17px;">T1</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Awareness</div><div style="font-size: 13px; color: #93A4B8;">Brand &amp; community content</div></div>
         </div>
-        <div class="nf-reveal" style="grid-column: 2; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.08s;">
+        <div class="nf-reveal nf-roadmap-item" style="grid-column: 2; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.08s;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: #16263F; border: 2px solid rgba(21,166,174,0.5); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: var(--accent, #15A6AE); font-size: 17px;">T2</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Open Day Runway</div><div style="font-size: 13px; color: #93A4B8;">6-week campaign live</div></div>
         </div>
-        <div class="nf-reveal" style="grid-column: 3; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.16s;">
+        <div class="nf-reveal nf-roadmap-item" style="grid-column: 3; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.16s;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: #16263F; border: 2px solid rgba(21,166,174,0.5); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: var(--accent, #15A6AE); font-size: 17px;">T3</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Enquiry Nurture</div><div style="font-size: 13px; color: #93A4B8;">Warm follow-up sequence</div></div>
         </div>
-        <div class="nf-reveal nf-hover-lift" style="grid-column: 4; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.24s;">
+        <div class="nf-reveal nf-hover-lift nf-roadmap-item" style="grid-column: 4; grid-row: 1; display: flex; flex-direction: column; align-items: center; gap: 22px; position: relative; transition-delay: 0.24s;">
           <span style="width: 66px; height: 66px; border-radius: 50%; background: var(--accent, #15A6AE); display: flex; align-items: center; justify-content: center; font-family: 'Poppins', sans-serif; font-weight: 800; color: #fff; font-size: 17px; box-shadow: 0 10px 24px rgba(21,166,174,0.4);">T4</span>
           <div style="text-align: center;"><div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 4px;">Enrolment Push</div><div style="font-size: 13px; color: #93A4B8;">Application deadline sprint</div></div>
         </div>
@@ -252,34 +256,34 @@
       <div style="text-align: center; margin-bottom: 36px;">
         <div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-dark, #0E8C93); margin-bottom: 10px;">Takes 30 seconds</div>
         <h2 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(24px, 2.8vw, 32px); letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 10px;">Score your school. Honestly.</h2>
-        <p style="font-size: 15px; color: #6C7E8E; margin: 0; max-width: 480px; margin-left: auto; margin-right: auto;">Tap Y (2 pts), P (1 pt) or N (0 pts) for each: no cheating, the point is to see where you actually stand.</p>
+        <p style="font-size: 15px; color: #6C7E8E; margin: 0; max-width: 480px; margin-left: auto; margin-right: auto;">Tap Yes (2 pts), Probably (1 pt) or No (0 pts) for each: no cheating, the point is to see where you actually stand.</p>
       </div>
       <div style="background: #F4F8F9; border-radius: 16px; padding: 28px 32px; display: flex; flex-direction: column;">
           <div class="sc-row" data-q="1" style="display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid #E4EDEF;">
             <span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #E4F4F5; color: #0E8C93; font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 14px; display: flex; align-items: center; justify-content: center;">1</span>
             <div style="flex: 1; font-size: 15.5px; color: #16263F; font-weight: 500; line-height: 1.5;">Do you have a written 12-month marketing calendar by campaign type?</div>
             <div style="display: flex; gap: 8px; flex: none;">
-              <button type="button" class="sc-opt" data-q="1" data-val="2" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">Y</button>
-              <button type="button" class="sc-opt" data-q="1" data-val="1" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">P</button>
-              <button type="button" class="sc-opt" data-q="1" data-val="0" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">N</button>
+              <button type="button" class="sc-opt" data-q="1" data-val="2" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">Yes</button>
+              <button type="button" class="sc-opt" data-q="1" data-val="1" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">Probably</button>
+              <button type="button" class="sc-opt" data-q="1" data-val="0" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">No</button>
             </div>
           </div>
           <div class="sc-row" data-q="2" style="display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid #E4EDEF;">
             <span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #E4F4F5; color: #0E8C93; font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 14px; display: flex; align-items: center; justify-content: center;">2</span>
             <div style="flex: 1; font-size: 15.5px; color: #16263F; font-weight: 500; line-height: 1.5;">Do your Open Day campaigns run at least 6 weeks live, not 3?</div>
             <div style="display: flex; gap: 8px; flex: none;">
-              <button type="button" class="sc-opt" data-q="2" data-val="2" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">Y</button>
-              <button type="button" class="sc-opt" data-q="2" data-val="1" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">P</button>
-              <button type="button" class="sc-opt" data-q="2" data-val="0" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">N</button>
+              <button type="button" class="sc-opt" data-q="2" data-val="2" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">Yes</button>
+              <button type="button" class="sc-opt" data-q="2" data-val="1" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">Probably</button>
+              <button type="button" class="sc-opt" data-q="2" data-val="0" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">No</button>
             </div>
           </div>
           <div class="sc-row" data-q="3" style="display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid #E4EDEF;">
             <span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #E4F4F5; color: #0E8C93; font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 14px; display: flex; align-items: center; justify-content: center;">3</span>
             <div style="flex: 1; font-size: 15.5px; color: #16263F; font-weight: 500; line-height: 1.5;">Do you know your cost per lead and cost per enrolment, to the dollar?</div>
             <div style="display: flex; gap: 8px; flex: none;">
-              <button type="button" class="sc-opt" data-q="3" data-val="2" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">Y</button>
-              <button type="button" class="sc-opt" data-q="3" data-val="1" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">P</button>
-              <button type="button" class="sc-opt" data-q="3" data-val="0" style="width: 40px; height: 40px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 14px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA;">N</button>
+              <button type="button" class="sc-opt" data-q="3" data-val="2" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">Yes</button>
+              <button type="button" class="sc-opt" data-q="3" data-val="1" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">Probably</button>
+              <button type="button" class="sc-opt" data-q="3" data-val="0" style="min-width: 40px; height: 40px; padding: 0 12px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; border-radius: 9px; cursor: pointer; transition: all 0.2s ease; background: #fff; color: #16263F; border: 1.5px solid #DDE6EA; white-space: nowrap;">No</button>
             </div>
           </div>
       </div>
