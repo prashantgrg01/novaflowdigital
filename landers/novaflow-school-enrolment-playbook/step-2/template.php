@@ -192,7 +192,7 @@
               <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">Student growth at one school</p>
             </div>
             <div style="border: 1px solid #E4EDEF; border-radius: 14px; padding: 20px 16px;">
-              <div style="font-weight: 800; font-size: 32px; color: #16263F; line-height: 1;">+4%</div>
+              <div style="font-weight: 800; font-size: 32px; color: #16263F; line-height: 1;">+14%</div>
               <p style="font-size: 12px; color: #6C7E8E; line-height: 1.35; margin: 8px 0 0;">Enrolment growth, college back to full capacity</p>
             </div>
           </div>
