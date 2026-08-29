@@ -46,6 +46,9 @@
     .nf-section { padding-top: 56px !important; padding-bottom: 56px !important; }
     .nf-logos { padding-top: 28px !important; padding-bottom: 32px !important; }
   }
+  @media (max-width: 760px) {
+    .nf-logos-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  }
 </style>
 
 <style>
@@ -344,9 +347,35 @@
   </section>
 
   <!-- ============ CLIENT LOGO GRID ============ -->
-  <section class="nf-logos" style="padding: 12px 0 40px; background: #fff;">
-        <div class="nf-reveal" style="max-width: 1180px; margin: 0 auto; padding: 0 24px;">
-      <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/school-partner-logos.png" alt="Logos of partner Australian schools trusted by NovaFlow Digital" style="width: 100%; height: auto; display: block; border-radius: 14px;">
+  <section class="nf-logos" style="padding: 88px 24px;">
+    <div class="nf-reveal" style="max-width: 1180px; margin: 0 auto; text-align: center;">
+      <h2 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(22px, 2.8vw, 30px); color: var(--ink, #16263F); line-height: 1.25; margin: 0 0 32px;">Trusted by leading Australian <span style="position: relative; display: inline-block;">schools<svg width="100%" height="10" viewBox="0 0 200 10" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -4px; width: 100%;"><path d="M2 7 Q100 -2 198 7" stroke="var(--accent, #15A6AE)" stroke-width="3" fill="none" stroke-linecap="round"></path></svg></span> and educational partners</h2>
+      <div class="nf-logos-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-1.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-2.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-3.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-4.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-5.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-6.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-7.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+        <div style="background: #F7FBFC; border: 1px solid #E7EEF1; border-radius: 14px; padding: 16px; display: flex; align-items: center; justify-content: center; height: 100px;">
+          <img src="https://novaflowdigital.com.au/wp-content/uploads/2026/05/logo-8.png" alt="Client logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; transform: scale(1.6);">
+        </div>
+      </div>
     </div>
   </section>
 
