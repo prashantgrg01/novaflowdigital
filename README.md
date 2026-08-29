@@ -4,6 +4,10 @@ Self-contained landing pages, one folder per campaign, deployed into
 WordPress as auto-registered Page Templates. Full design rationale lives in
 the project spec; this file is the quick-reference for day-to-day use.
 
+**Making changes with an AI coding tool?** See [`AGENTS.md`](./AGENTS.md)
+first — it covers the branch workflow, which files are safe to edit, and
+how to add a new lander.
+
 ## Repo layout
 
 ```
