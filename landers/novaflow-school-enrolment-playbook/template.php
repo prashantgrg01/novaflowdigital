@@ -72,8 +72,8 @@
       <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/novaflow-logo.png" alt="NovaFlow Digital" style="height: 30px; width: auto; margin-bottom: 48px;">
       <div class="nf-hero" style="position: relative; display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center;">
         <div class="nf-reveal">
-          <div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-dark, #0E8C93); margin-bottom: 14px;">Free · 2027 Edition</div>
-          <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 22px; text-wrap: balance;">The 2027 School <span style="position: relative; white-space: nowrap;">Enrolment<svg width="100%" height="12" viewBox="0 0 140 12" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -6px; width: 100%;"><path d="M2 8 C 40 2, 100 2, 138 8" stroke="var(--accent, #15A6AE)" stroke-width="5" fill="none" stroke-linecap="round"></path></svg></span> Playbook.</h1>
+          <div style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-dark, #0E8C93); margin-bottom: 14px;">Free · 2026 Edition</div>
+          <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em; color: var(--ink, #16263F); margin: 0 0 22px; text-wrap: balance;">The 2026 School <span style="position: relative; white-space: nowrap;">Enrolment<svg width="100%" height="12" viewBox="0 0 140 12" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: -6px; width: 100%;"><path d="M2 8 C 40 2, 100 2, 138 8" stroke="var(--accent, #15A6AE)" stroke-width="5" fill="none" stroke-linecap="round"></path></svg></span> Playbook.</h1>
           <p style="font-size: 17.5px; line-height: 1.65; color: #51637A; margin: 0 0 34px; max-width: 540px;">Everything you need to confidently plan your school's enrolment marketing, from annual campaigns and Open Days to benchmarking and budgeting, all in one practical guide.</p>
 
           <div id="hero-form" style="background: #fff; border: 1px solid #E4EDEF; border-radius: 16px; padding: 28px; box-shadow: 0 20px 44px rgba(22,38,63,0.1); max-width: 460px;">
@@ -86,7 +86,7 @@
           </div>
         </div>
 
-        <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2027 School Enrolment Playbook: cover and interior pages" class="nf-reveal nf-hover-lift nf-hero-mockup" style="width: 118%; max-width: none; height: auto; display: block; transition-delay: 0.12s;">
+        <img src="/wp-content/uploads/landers/novaflow-school-enrolment-playbook/assets/checklist-mockup.png" alt="The 2026 School Enrolment Playbook: cover and interior pages" class="nf-reveal nf-hover-lift nf-hero-mockup" style="width: 118%; max-width: none; height: auto; display: block; transition-delay: 0.12s;">
       </div>
     </div>
   </section>
