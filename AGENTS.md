@@ -6,23 +6,47 @@ be edited by prompting an AI coding tool directly — these instructions
 apply regardless of which tool you're using (Claude Code, Cursor, Copilot,
 Codex, etc.).
 
+## Response style
+
+Keep replies short. When you make a change, reply with one short sentence
+describing what changed, plus the specific preview link(s) for the
+lander(s) you actually touched — nothing else. No walkthroughs, no diffs,
+no file paths, no explanations of how you found the file, unless the
+person asks a direct technical question.
+
+Example: "Updated the hero headline on the School Enrolment Playbook.
+Preview: `https://<github-username>.github.io/novaflowdigital/landers/novaflow-school-enrolment-playbook/`"
+
 ## Workflow — read this first
 
-1. **Never push directly to `main`.** `main` is production: merging into
-   it automatically deploys to the live WordPress site via GitHub Actions
-   (SSH + rsync). Direct pushes to `main` are also blocked by a GitHub
-   branch protection rule — you'll need to open a pull request.
-2. Make changes on `staging` (or a feature branch off `staging`).
-3. Every push to `staging` auto-deploys a preview to GitHub Pages:
+1. **Always work directly on `staging`.** Don't create feature branches. If
+   `staging` doesn't exist for some reason, create it from `main` first
+   (`git checkout -B staging origin/main && git push -u origin staging`),
+   then continue on it.
+2. **Commit and push every change straight to `staging` — don't ask for
+   confirmation first.** Staging only ever deploys a preview; it never
+   touches the live site, so there's no risk in pushing immediately.
+3. **Never push to `main` and never open a pull request into `main` unless
+   the person explicitly asks for it** (e.g. "publish this," "I'm happy,
+   go live," "merge to main," "put this live"). A GitHub branch protection
+   rule blocks direct pushes to `main` anyway — the only path in is a pull
+   request, and that should only happen on request.
+4. **Finding the right file:** when asked to change something (often with
+   a screenshot or a quoted line of copy), search
+   `landers/*/template.php` and any nested step pages (e.g. `.../step-2/`)
+   for the visible text described, rather than asking which lander/file
+   it's in. Only ask for clarification if the same text genuinely appears
+   in more than one lander.
+5. Every push to `staging` auto-deploys a preview to GitHub Pages:
    - `https://<github-username>.github.io/novaflowdigital/landers/{lander-name}/`
    - and `.../landers/{lander-name}/step-2/` for a lander with a second step
-4. **Always check the staging preview before merging to `main`.** Note:
-   this preview shows the visual result only — the WordPress "select this
-   as a page's Template" behavior only exists once it's actually deployed
-   to WordPress, not on GitHub Pages.
-5. When it looks right, open a pull request from `staging` into `main`.
-   Merging the PR triggers the production deploy automatically — nothing
-   else to do.
+   Note: this preview shows the visual result only — the WordPress "select
+   this as a page's Template" behavior only exists once it's actually
+   deployed to WordPress, not on GitHub Pages.
+6. **When asked to publish/go live:** open a pull request from `staging`
+   into `main` (don't merge it yourself unless explicitly told to). Reply
+   with just the PR link and a one-line note that merging it deploys to
+   production automatically.
 
 ## What's safe to edit vs. what's shared/risky
 
@@ -51,8 +75,8 @@ Codex, etc.).
    in the WordPress Template dropdown.
 4. Replace the copy, images (in `assets/`), and the ActiveCampaign embed
    form id (see "Forms" below).
-5. Push to `staging`, check the GitHub Pages preview, then open a PR into
-   `main`.
+5. Push to `staging` and check the GitHub Pages preview. Only open a PR
+   into `main` if asked to publish it.
 
 A lander can also have a nested second step (see
 `landers/novaflow-school-enrolment-playbook/step-2/` for an example, used
